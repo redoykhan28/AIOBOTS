@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bt:disabled {
+
+  background-color: darkgray;
+
+}
