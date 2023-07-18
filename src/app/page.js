@@ -61,13 +61,13 @@ export default function Home() {
     <div className='bg-gradient-to-r from-[#f8845d] via-[#FDC296] to-[#FCE4A3] h-screen'>
       <div className='pt-20 mb-24'>
         <h1 className='md:text-5xl text-2xl text-center text-white'>HELLO</h1>
-        <h1 className='md:text-5xl text-2xl text-center text-white font-semibold'>I'M <span> {text}</span></h1>
+        <h1 className='md:text-5xl text-2xl text-center text-white font-semibold'>I AM <span> {text}</span></h1>
       </div>
       <div>
         <Image className='w-40 mx-auto animate-bounce ' src={logo} alt='LOGO'></Image>
       </div>
       <div data-aos="zoom-in" className='text-center my-20'>
-        <Link href={'/bot'} className="btn lg:w-1/4 mx-auto bg-white text-black rounded-full transition transform hover:-translate-y-1 duration-300 ">Let's Start a Converation!</Link>
+        <Link href={'/bot'} className="btn lg:w-1/4 mx-auto bg-white text-black rounded-full transition transform hover:-translate-y-1 duration-300 ">Lets Start a Converation!</Link>
       </div>
       <footer className="footer footer-center roun lg:rounded-tl-full lg:rounded-tr-full mt-28 p-4 bg-base-300 text-base-content">
         <div className='w-11/12 mx-auto flex justify-between items-center'>
